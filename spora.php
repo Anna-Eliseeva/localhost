@@ -56,15 +56,27 @@ if(2 > 0) {
 }
 $gb = new PDO('mysql:host=localhost;database=anna', 'root', '');
 var_dump($gb);
-//Для того чтобы сделать обычный запрос мы его сначала подготавливаем
-$sql = "SELECT * FROM";
-$result = $gb->query($sql);//MYsql query
-//Применяем метод featch,куда передаем тип данных
-echo "<h2> Вывод записей Базы данных</h2>";
-while($user = $result->fetch()) {
-    var_dump($user);
-    //Далее следует вывод на экран
-//    echo "{$user["1"]}.Username :{$user['username']},Password {$user['password']}.<br>";
+////Для того чтобы сделать обычный запрос мы его сначала подготавливаем
+//$sql = "SELECT * FROM";
+//$result = $gb->query($sql);//MYsql query
+////Применяем метод featch,куда передаем тип данных
+//echo "<h2> Вывод записей Базы данных</h2>";
+//while($user = $result->fetch()) {
+//    var_dump($user);
+//    //Далее следует вывод на экран
+////    echo "{$user["1"]}.Username :{$user['username']},Password {$user['password']}.<br>";
+//}
+//
+//var_dump($gb);
+$x = 1;
+echo '<table border = "1">';
+while($x < 10) {
+    $x++;
+    echo "<tr>";
+    $y = 1;
+    while($y < 10) {
+        echo "<td>$x $y = " . $x * $y . "</td>";
+$y++;
 }
-
-var_dump($gb);
+    echo "<tr>";
+}
