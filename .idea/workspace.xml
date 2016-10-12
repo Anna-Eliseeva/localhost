@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f504dd1-3d38-4530-8b3d-c037583a7002" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spora.php" afterPath="$PROJECT_DIR$/spora.php" />
     </list>
@@ -40,14 +39,12 @@
       <file leaf-file-name="spora.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spora.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="48" column="7" selection-start-line="42" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="268">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
               <folding>
                 <element signature="e#6#69#0#PHP" expanded="true" />
-                <marker date="1476038766759" expanded="true" signature="507:657" ph="..." />
-                <marker date="1476038766759" expanded="true" signature="695:1059" ph="..." />
-                <marker date="1476038766759" expanded="true" signature="745:1058" ph="..." />
-                <marker date="1476038766759" expanded="true" signature="877:1058" ph="..." />
+                <marker date="1476295348118" expanded="true" signature="507:657" ph="..." />
+                <marker date="1476295348118" expanded="false" signature="924:1070" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,7 +104,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -129,6 +125,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,20 +199,29 @@
       <workItem from="1475776117684" duration="5571000" />
       <workItem from="1475826974837" duration="5368000" />
       <workItem from="1476000606889" duration="3239000" />
-      <workItem from="1476035143259" duration="3358000" />
+      <workItem from="1476035143259" duration="3402000" />
+      <workItem from="1476288923648" duration="3155000" />
     </task>
+    <task id="LOCAL-00001" summary="Повтор массивов">
+      <created>1476045244584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1476045244584</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17536000" />
+    <option name="totallyTimeSpent" value="20735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="740" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26139817" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26519758" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.018237082" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="ReST Console" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7348024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -244,11 +250,37 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Повтор массивов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Повтор массивов" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/rabota.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="16" selection-start-line="32" selection-start-column="0" selection-end-line="51" selection-end-column="21" />
+          <folding>
+            <element signature="e#8#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spora.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#69#0#PHP" expanded="true" />
+            <marker date="1476295348118" expanded="true" signature="507:657" ph="..." />
+            <marker date="1476295348118" expanded="false" signature="924:1070" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rabota.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -265,10 +297,8 @@
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="e#6#69#0#PHP" expanded="true" />
-            <marker date="1476038766759" expanded="true" signature="507:657" ph="..." />
-            <marker date="1476038766759" expanded="true" signature="695:1059" ph="..." />
-            <marker date="1476038766759" expanded="true" signature="745:1058" ph="..." />
-            <marker date="1476038766759" expanded="true" signature="877:1058" ph="..." />
+            <marker date="1476295348118" expanded="true" signature="507:657" ph="..." />
+            <marker date="1476295348118" expanded="false" signature="924:1070" ph="..." />
           </folding>
         </state>
       </provider>
@@ -293,16 +323,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="1009" column="35" selection-start-line="1009" selection-start-column="35" selection-end-line="1009" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spora.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="48" column="7" selection-start-line="42" selection-start-column="0" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="268">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding>
             <element signature="e#6#69#0#PHP" expanded="true" />
-            <marker date="1476038766759" expanded="true" signature="507:657" ph="..." />
-            <marker date="1476038766759" expanded="true" signature="695:1059" ph="..." />
-            <marker date="1476038766759" expanded="true" signature="745:1058" ph="..." />
-            <marker date="1476038766759" expanded="true" signature="877:1058" ph="..." />
+            <marker date="1476295348118" expanded="true" signature="507:657" ph="..." />
+            <marker date="1476295348118" expanded="false" signature="924:1070" ph="..." />
           </folding>
         </state>
       </provider>
