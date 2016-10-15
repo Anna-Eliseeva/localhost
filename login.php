@@ -19,12 +19,18 @@ if(isset($data['do_signup'])) {
         $errors[] = 'Повторный пароль введен не верно ';
     }
 
-    if(empty($errors)){
+    if(empty($errors)) {
         //все хорошо можно регистрировать
-
+        $user = R::dispense('users');
+        $user->login = $data['login'];
+        $user->email = $data['email'];
+        $user->password = $data['password'];
+        $user->join_date = time();
+        R:store($user);
+        echo '<div style="color:green;" > Ура!</div><hr>';
     }
-    else{
-        echo '<div style="color:red;" >'.array_shift($errors).'</div><hr>';
+    else {
+        echo '<div style="color:red;" >' . array_shift($errors) . '</div><hr>';
     }
 }
 ?>
@@ -32,25 +38,25 @@ if(isset($data['do_signup'])) {
 
 <form action="auth.php" method="POST"></form>
 <p>
-    <strong>Ваш логин</strong>
-    <input type="text" name="login" value="<?php echo @$data ['login'];?>">
+    <p><strong>Ваш логин</strong></p>
+    <input type="text" name="login" value="<?php echo @$data ['login']; ?>">
 </p>
 
 <form action="auth.php" method="POST"></form>
 <p>
     <strong>Ваш E-mail</strong>
-    <input type="email" name="email" value="<?php echo @$data ['email'];?>">
+    <input type="email" name="email" value="<?php echo @$data ['email']; ?>">
 </p>
 
 <form action="auth.php" method="POST"></form>
 <p>
     <strong>Ваш пароль</strong>
-    <input type="password" name="password" value="<?php echo @$data ['password'];?>">
+    <input type="password" name="password" value="<?php echo @$data ['password']; ?>">
 </p>
 <form action="auth.php" method="POST"></form>
 <p>
     <strong>Повторите пароль</strong>
-    <input type="password" name="password_2" value="<?php echo @$data ['password_2'];?>">
+    <input type="password" name="password_2" value="<?php echo @$data ['password_2']; ?>">
 </p>
 <p>
     <button type="sumbit" name="do_signup">Зарегистрироваться</button>
